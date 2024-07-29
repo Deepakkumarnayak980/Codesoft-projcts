@@ -2,7 +2,7 @@ const output = document.querySelector('.result');
 const buttons = document.querySelectorAll('button');
 console.log("buttons", buttons)
 console.log("output", output)
-let str = '';
+let str = ''; 
 buttons.forEach((button) => {
     button.addEventListener('click', (e) => {
         console.log("e.target.textContent", e.target.textContent.trim())
